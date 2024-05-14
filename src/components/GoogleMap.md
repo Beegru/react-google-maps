@@ -1,7 +1,7 @@
 ### Map with controlled zoom
 
 ```js
-const { compose, withProps, withState, withHandlers } = require("recompose");
+const { compose, withProps, withState, withHandlers } = require("@beegru/recompose");
 const FaAnchor = require("react-icons/lib/fa/anchor");
 const {
   withScriptjs,

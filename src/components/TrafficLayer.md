@@ -1,7 +1,7 @@
 ### Map with a TrafficLayer
 
 ```jsx
-const { compose, withProps } = require("recompose");
+const { compose, withProps } = require("@beegru/recompose");
 const {
   withScriptjs,
   withGoogleMap,

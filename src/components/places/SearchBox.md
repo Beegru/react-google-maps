@@ -2,7 +2,7 @@
 
 ```jsx
 const _ = require("lodash");
-const { compose, withProps, lifecycle } = require("recompose");
+const { compose, withProps, lifecycle } = require("@beegru/recompose");
 const {
   withScriptjs,
   withGoogleMap,

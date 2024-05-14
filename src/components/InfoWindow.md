@@ -1,7 +1,7 @@
 ### Click the Marker to show InfoWindow
 
 ```jsx
-const { compose, withProps, withStateHandlers } = require("recompose");
+const { compose, withProps, withStateHandlers } = require("@beegru/recompose");
 const FaAnchor = require("react-icons/lib/fa/anchor");
 const {
   withScriptjs,

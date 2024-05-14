@@ -1,7 +1,7 @@
 ### Click the Marker to show OverlayView
 
 ```jsx
-const { compose, withProps } = require("recompose");
+const { compose, withProps } = require("@beegru/recompose");
 const FaAnchor = require("react-icons/lib/fa/anchor");
 const {
   withScriptjs,

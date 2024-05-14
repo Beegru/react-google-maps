@@ -2,7 +2,7 @@
 
 ```jsx
 const fetch = require("isomorphic-fetch");
-const { compose, withProps, withHandlers } = require("recompose");
+const { compose, withProps, withHandlers } = require("@beegru/recompose");
 const {
   withScriptjs,
   withGoogleMap,

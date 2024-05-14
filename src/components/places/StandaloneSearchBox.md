@@ -1,7 +1,7 @@
 ### Standalone SearchBox
 
 ```jsx
-const { compose, withProps, lifecycle } = require("recompose");
+const { compose, withProps, lifecycle } = require("@beegru/recompose");
 const {
   withScriptjs,
 } = require("react-google-maps");
@@ -32,7 +32,7 @@ const PlacesWithStandaloneSearchBox = compose(
       })
     },
   }),
-  withScriptjs  
+  withScriptjs
 )(props =>
   <div data-standalone-searchbox="">
     <StandaloneSearchBox

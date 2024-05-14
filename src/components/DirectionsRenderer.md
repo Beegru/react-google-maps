@@ -1,7 +1,7 @@
 ### Map with a DirectionsRenderer
 
 ```jsx
-const { compose, withProps, lifecycle } = require("recompose");
+const { compose, withProps, lifecycle } = require("@beegru/recompose");
 const {
   withScriptjs,
   withGoogleMap,

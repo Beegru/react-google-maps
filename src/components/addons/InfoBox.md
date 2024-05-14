@@ -1,7 +1,7 @@
 ### Styled Map with an InfoBox
 
 ```jsx
-const { compose, withProps, withStateHandlers } = require("recompose");
+const { compose, withProps, withStateHandlers } = require("@beegru/recompose");
 const {
   withScriptjs,
   withGoogleMap,

@@ -1,7 +1,7 @@
 import _ from "lodash"
 import invariant from "invariant"
 import canUseDOM from "can-use-dom"
-import { getDisplayName } from "recompose"
+import { getDisplayName } from "@beegru/recompose"
 import PropTypes from "prop-types"
 import React from "react"
 

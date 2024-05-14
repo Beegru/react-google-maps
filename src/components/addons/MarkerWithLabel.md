@@ -1,7 +1,7 @@
 ### Map with a MarkerWithLabel
 
 ```jsx
-const { compose } = require("recompose");
+const { compose } = require("@beegru/recompose");
 const {
   withScriptjs,
   withGoogleMap,
