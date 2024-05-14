@@ -95,7 +95,7 @@ For _simplicity_, in this documentation, I will use [`recompose`][recompose] to 
 
 
 ```js static
-import { compose, withProps } from "recompose"
+import { compose, withProps } from "@beegru/recompose"
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
 const MyMapComponent = compose(
@@ -127,7 +127,7 @@ Implement your own state transition logic with `MyMapComponent`!
 
 ```js static
 import React from "react"
-import { compose, withProps } from "recompose"
+import { compose, withProps } from "@beegru/recompose"
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
 const MyMapComponent = compose(
