@@ -1,9 +1,9 @@
-import _ from "lodash"
-import invariant from "invariant"
-import canUseDOM from "can-use-dom"
-import { getDisplayName } from "@beegru/recompose"
-import PropTypes from "prop-types"
-import React from "react"
+import { getDisplayName } from "@beegru/recompose";
+import canUseDOM from "can-use-dom";
+import invariant from "invariant";
+import _ from "lodash";
+import PropTypes from "prop-types";
+import React from "react";
 
 const LOADING_STATE_NONE = `NONE`
 const LOADING_STATE_BEGIN = `BEGIN`
